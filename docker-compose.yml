@@ -3,7 +3,7 @@ services:
     container_name: postgres-sql-bsn
     image: postgres
     environment:
-      POSTGRES_USER: zed
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: zed
       PGDATA: /var/lib/postgresql/data
       POSTGRES_DB: book_social_network
