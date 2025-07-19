@@ -54,6 +54,8 @@ public class AuthenticationService {
   }
 
   public AuthenticationResponse authenticate(AuthenticationRequest request) throws MessagingException {
+
+
     var auth = this.authenticationManager.authenticate(
         new UsernamePasswordAuthenticationToken(
             request.getEmail(),
